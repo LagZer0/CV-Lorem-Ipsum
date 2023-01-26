@@ -1,0 +1,37 @@
+.cuerpo {
+    height: 80%;
+    width: 85%;
+    margin: 100px 5% 0 5%;
+    background-color: #617ebb;
+}
+
+
+.fondo {
+    margin-left: 5%;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.cabecera {
+    background-color: rgb(59, 155, 115);
+    display: flex;
+    box-shadow:
+       inset 0 -3em 6em rgba(0,0,0,0.1),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);   
+}
+
+.contenidoHeader {
+    flex-direction: column;
+}
+
+.nombre , .trabajo {
+    margin: 50px 0 0 20px;
+    color: rgb(0, 0, 0);
+}
+
+.fotoPerfil {
+    height: 200px;
+    width: 200px;
+    border-radius: 30%;
+    margin: 10px 0 0 15px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,29 @@
+.descripcion {
+    display: flex;
+    background-color: rgb(59, 155, 115);
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);   
+}
+
+.tituloDesc {
+    margin: 140px 0 150px 15px;
+    padding: 10px;
+    background-color: rgb(92, 158, 160);
+    font-family: 'Teko', sans-serif;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0.1),
+          0.3em 0.3em 1em rgba(0,0,0,0.3);   
+}
+
+.textoDesc {
+    /* text-align: center; */
+    background-color: rgba(22, 11, 179, 0.062);
+    font-family: 'Noto Sans SignWriting', sans-serif;
+    padding: 15px 20px 20px 15px;
+    margin: 15px 15px 15px 15px;
+}
+
+.textoDesc:hover {
+    cursor: pointer;
+}

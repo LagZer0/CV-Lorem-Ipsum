@@ -1,0 +1,30 @@
+.listaFoot{
+    float: right;
+    
+}
+
+.listaAutor{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.derechosAutor{
+    justify-content: space-between;
+    width: 100px;
+    height: auto;
+    
+}
+
+#nombreAutor {
+    margin-top: 15px;
+    padding-right: 25px;
+    width: auto;
+}
+
+.imagenDerechos {
+    max-width: 70px;
+    max-height: 50px;
+    background-color: white;
+    border-radius: 10%;
+}
